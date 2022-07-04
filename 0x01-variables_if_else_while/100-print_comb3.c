@@ -11,7 +11,7 @@ int main(void)
 
 	for (n = 48; n <= 57; n++)
 	{
-		for (x = 49; x <= 57; n++)
+		for (x = 49; x <= 57; x++)
 		{
 			if (x > n)
 			{
