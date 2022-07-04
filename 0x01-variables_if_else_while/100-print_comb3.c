@@ -13,12 +13,15 @@ int main(void)
 	{
 		for (x = 49; x <= 57; n++)
 		{
-			putchar(n);
-			putchar(x);
-			if (n != 56 || x != 57)
+			if (x > n)
 			{
-				putchar(44);
-				putchar(32);
+				putchar(n);
+				putchar(x);
+				if (n != 56 || x != 57)
+				{
+					putchar(44);
+					putchar(32);
+				}
 			}
 		}
 	}
