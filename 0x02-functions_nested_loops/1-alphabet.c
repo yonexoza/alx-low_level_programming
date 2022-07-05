@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * main - check the code
- * Return: always 0
+ * print_alphabet -> orints lowercase alphabets
  */
 
 void print_alphabet(void)
 {
 	int n;
+
 	for (n = 97; n <= 122; n++)
 	{
 		_putchar(n);
