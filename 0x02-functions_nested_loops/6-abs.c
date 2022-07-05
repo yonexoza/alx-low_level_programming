@@ -2,12 +2,11 @@
 /**
  * _abs -> absolute value
  * Return: always 0
+ * @n: variable
  */
 
-int _abs(int)
+int _abs(int n)
 {
-	int n;
-
 	if (n < 0)
 	{
 		_putchar(-n);
