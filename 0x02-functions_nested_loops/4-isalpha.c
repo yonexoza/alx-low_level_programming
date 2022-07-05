@@ -5,8 +5,7 @@
  * @c: argument
  */
 
-int _islower(int c)
+int _isalpha(int c)
 {
 	return (c >= 'A' && c <= 'Z' && c >= 'a' && c <= 'z');
 }
-
