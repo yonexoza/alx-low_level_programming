@@ -20,7 +20,7 @@ int main(void)
 				putchar(32);
 				putchar(x / 10 + 48);
 				putchar(x % 10 + 48);
-				if (j * 100 + i != 9899)
+				if (y * 100 + x != 9899)
 				{
 					putchar(44);
 					putchar(32);
