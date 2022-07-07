@@ -5,6 +5,7 @@
 
 /**
  * main - starting point
+ * @i: vairable
  * Return: always 0
  */
 void postitive_or_negative(int i)
@@ -21,4 +22,15 @@ void postitive_or_negative(int i)
 	{
 		printf("%d is negative ", n);
 	}
+	return (i);
+}
+
+int main(void)
+{
+	int i;
+
+	i = 0;
+	postitive_or_negative(i);
+
+	return (0);
 }
