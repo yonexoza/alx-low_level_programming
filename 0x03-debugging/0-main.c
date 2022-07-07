@@ -7,12 +7,12 @@
  * main - starting point
  * Return: always 0
  */
-void postitive_or_negative(void)
+void postitive_or_negative(int i)
 {
 	int n;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	n = i;
 	if (n > 0)
 		printf("%d is positve ", n);
 	if (n == 0)
