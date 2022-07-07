@@ -3,7 +3,11 @@
 #include <time.h>
 #include <stdio.h>
 
-void postitive_or_negative()
+/**
+ * main - starting point
+ * Return: always 0
+ */
+void postitive_or_negative(void)
 {
 	int n;
 
@@ -17,5 +21,4 @@ void postitive_or_negative()
 	{
 		printf("%d is negative ", n);
 	}
-	return (0);
 }
