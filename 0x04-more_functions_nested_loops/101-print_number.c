@@ -2,7 +2,7 @@
 
 /**
  * print_number - prints a number.
- * @n: variable
+ * @n: the number to be printed.
  */
 
 void print_number(int n)
@@ -42,7 +42,7 @@ void print_number(int n)
 /**
  * _nodigits - returns number of digits
  * in a number.
- * @n: variable
+ * @n: accepts an integer.
  * Return: counter
  */
 
@@ -61,7 +61,7 @@ int _nodigits(int n)
 
 /**
  * _sum - sums the input digits in reverse.
- * @n: variable
+ * @n: integer number
  * @digits: the number of digits of n.
  * Return: sum.
  */
