@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - finds largest prime factor.
- * Return: 0 (Success)
+ * main - largest prime factor
+ * Return: always 0
  */
 
 int main(void)
