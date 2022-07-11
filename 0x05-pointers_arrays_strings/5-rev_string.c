@@ -19,7 +19,7 @@ void rev_string(char *s)
 	{
 		_putchar(i + 48);
 		_putchar(' ');
-		temp1 = s[i];
+		temp = s[i];
 		s[i] = s[j++];
 		s[j] = temp;
 
