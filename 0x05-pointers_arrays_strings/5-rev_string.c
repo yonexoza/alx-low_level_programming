@@ -9,19 +9,19 @@ void rev_string(char *s)
 {
 	int i;
 	int j;
-	int k;
-	char temp;
+	int len;
+	char temp1;
 
-	k = _strlen(s);
+	len = _strlen(s);
 	j = 0;
 
-	for (i = k; i > k / 2; i--)
+	for (i = len; i > len / 2; i--)
 	{
 		_putchar(i + 48);
 		_putchar(' ');
-		temp = s[i];
+		temp1 = s[i];
 		s[i] = s[j++];
-		s[j] = temp;
+		s[j] = temp1;
 
 	}
 }
@@ -29,7 +29,7 @@ void rev_string(char *s)
 /**
  * _strlen - length of the string
  * @s: string
- * Return: return counter
+ * Return: counter
  */
 
 int _strlen(char *s)
